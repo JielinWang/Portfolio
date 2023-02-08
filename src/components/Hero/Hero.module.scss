@@ -54,7 +54,7 @@
       @media (max-width: $sm), (max-width: $md) {
         position: relative;
         left: 0;
-        background-size: 20rem;
+        background-size: 30rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,7 +65,7 @@
       margin: auto;
       background-image: url("../splash.png");
       background-repeat: no-repeat;
-      background-size: 23rem;
+      background-size: 22rem;
       left: 33%;
 
       img {

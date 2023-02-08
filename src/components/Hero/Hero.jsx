@@ -2,6 +2,7 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
@@ -59,7 +60,7 @@ const Hero = () => {
             className={css.certificate}
           >
             <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
+            <span>CERTIFIED PROFESSIONAL</span>
             <span>WED DEVELOPMENT</span>
           </motion.div>
         </div>
