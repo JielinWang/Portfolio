@@ -1,30 +1,30 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { MdComputer } from "react-icons/md";
+import { SiUdemy } from "react-icons/si";
+import { GiGraduateCap } from "react-icons/gi";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
+    name: "Full Stack Development with MERN",
+    completed: "Professional Certificate in coding",
+    icon: MdComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Web Developer Bootcamp 2022",
+    completed: " Web Development Certificate",
+    icon: SiUdemy,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "Renmin University",
+    completed: "Bachelor of Economics and Management",
+    icon: GiGraduateCap,
     bg: "#F26440",
   },
 ];
 
-export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+export const AboutMe = [
+  " I am a Software Developer in Chicago and specializing in Full-Stack Development, Web Development, and Front-end Development with JavaScript, CSS, HTML, NodeJS, ReactJS, Express, and MongoDB.",
+  "As an enthusiast for progress my goal is to create innovative applications that could make a positive impact in society and solve real world problems.",
 ];
 
 export const workExp = [
@@ -51,7 +51,7 @@ export const workExp = [
   },
 ];
 
-export const comments = [
+/*export const comments = [
   {
     name: "Anamika Sandula",
     post: "Creative Manager",
@@ -115,7 +115,7 @@ export const comments = [
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     img: "./people2.png",
   },
-];
+];*/
 
 export const sliderSettings = {
   dots: true,

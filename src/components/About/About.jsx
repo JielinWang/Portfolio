@@ -1,8 +1,9 @@
 import React from "react";
-import { projectExperience, WhatDoIHelp } from "../../utils/data";
+import { projectExperience, AboutMe } from "../../utils/data";
 import css from "./About.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer, textVariant } from "../../utils/motion.js";
+
 const About = () => {
   return (
     <section className={css.wrapper}>
@@ -28,7 +29,7 @@ const About = () => {
                 </div>
                 <div>
                   <span>{exp.name}</span>
-                  <span className="secondaryText">{exp.projects} Projects</span>
+                  <span className="secondaryText">{exp.completed}</span>
                 </div>
               </motion.div>
             );
@@ -37,8 +38,8 @@ const About = () => {
 
         {/* right */}
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
-          <span className="primaryText">What do I help? </span>
-          {WhatDoIHelp.map((paragraph, i) => (
+          <span className="primaryText">About Me</span>
+          {AboutMe.map((paragraph, i) => (
             <span className="secondaryText" key={i}>
               {paragraph}
             </span>
@@ -46,12 +47,16 @@ const About = () => {
 
           <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">285+</span>
-              <span className="secondaryText">Project Completed</span>
+              <span className="primaryText">Chinese</span>
+              <span className="secondaryText">Native</span>
             </div>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">190+</span>
-              <span className="secondaryText">Happy Clients</span>
+              <span className="primaryText">English</span>
+              <span className="secondaryText">Proficient</span>
+            </div>
+            <div className={`flexCenter ${css.stat}`}>
+              <span className="primaryText">Korean</span>
+              <span className="secondaryText">Proficient</span>
             </div>
           </div>
         </motion.div>
