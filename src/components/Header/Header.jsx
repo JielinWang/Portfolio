@@ -30,10 +30,10 @@ const Header = () => {
             <a href="">ABOUT</a>
           </li>
           <li>
-            <a href="">PROJECTS</a>
+            <a href="">SKILLS</a>
           </li>
           <li>
-            <a href="">SKILLS</a>
+            <a href="">PROJECTS</a>
           </li>
           <li>
             <a href="">CONTACT</a>
