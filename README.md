@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Portfolio :sparkles:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Hey! Im <b>Jielin Wang</b>, a Software Developer ready for challenges.Start by saying hi! :arrow_right:
 
-## Available Scripts
+  <a href="https://jielinwang.us/"> My portfolio website</a>
 
-In the project directory, you can run:
+</p>
 
-### `npm start`
+![homePage](https://user-images.githubusercontent.com/94776104/218263883-154726cb-bee3-47e1-9260-d0afa34de585.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>
+  <span>Built with :heart: in 2023 using</span>
+  <img src="https://img.shields.io/badge/-ReactJS-41B883">
+  <img src="https://img.shields.io/badge/-Framer Motion-9cf">
+  <img src="https://img.shields.io/badge/-JavaScript-EFD81F">
+  <img src="https://img.shields.io/badge/-SASS-FF69B4">
+  <img src="https://img.shields.io/badge/-Vite-LR69B4">
+</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run
 
-### `npm run build`
+Fork this repository or download file then follow the next steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+-npm install --global yarn (if you haven't install yarn globally)
+-yarn 
+-yarn vite
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once you have run those Command-line in your terminal. Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Specifications
 
-### `npm run eject`
+- Framework: [ReacttJS](https://reactjs.org)
+- Deploy: [Vercel](https://vercel.com)
+- Styles: [SASS](https://sass-lang.com)
+- Library: [Framer Motion](https://www.framer.com/motion/)
+- Tool: [Vite](https://vitejs.dev)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
+[Jielin Wang](https://www.linkedin.com/in/jielinwang-/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
