@@ -34,18 +34,21 @@ export const workExp = [
     tools:
       "ReactJS, JavaScript, Next.js, TypeScript,HTML, Bootstrap, CSS, SASS, DOM Manipulation,Version Control/Git, GraphQL, JSON",
     skill: "Problem Solving",
-    detail: "",
+    detail:
+      "I like a friend who has shared a word Calculate Risk with me, I think proactively understanding the root of a problem and working with others to consider a wide range of solutions before deciding how to move forward is very important.",
   },
   {
     stack: "Back-end",
     tools:
       "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, RESTful APIs, GitHub, Heroku, CI/CD ",
-    skill: "Team Work",
-    detail: "",
+    skill: "Team Work & Responsible",
+    detail:
+      "Working as part of a team,  I believe the better work with others, the more successful the team will be in achieving its goals. Teamwork makes Dream work.",
   },
   {
-    skill: "Communication Skills",
-    detail: "",
+    skill: "Communication & Collaboration",
+    detail:
+      "Good communication is the window to building connections with people and working collaboratively to give others better solutions and support.",
   },
 ];
 
