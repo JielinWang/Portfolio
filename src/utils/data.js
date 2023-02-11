@@ -40,7 +40,7 @@ export const workExp = [
   {
     stack: "Back-end",
     tools:
-      "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, RESTful APIs, GitHub, Heroku, CI/CD ",
+      "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, GitHub, CI/CD, RESTful APIs,Heroku,  ",
     skill: "Team Work & Responsible",
     detail:
       "Working as part of a team,  I believe the better work with others, the more successful the team will be in achieving its goals. Teamwork makes Dream work.",
