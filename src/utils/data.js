@@ -32,23 +32,20 @@ export const workExp = [
   {
     stack: "Front-end",
     tools:
-      "ReactJS, JavaScript, Next.js, HTML, Bootstrap, CSS, SASS, Version Control/Git, DOM Manipulation, JSON, TypeScript",
+      "ReactJS, JavaScript, Next.js, TypeScript,HTML, Bootstrap, CSS, SASS, DOM Manipulation,Version Control/Git, GraphQL, JSON",
     skill: "Problem Solving",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    detail: "",
   },
   {
     stack: "Back-end",
     tools:
-      "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, REST APIs,  ",
+      "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, RESTful APIs, GitHub, Heroku, CI/CD ",
     skill: "Team Work",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    detail: "",
   },
   {
     skill: "Communication Skills",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    detail: "",
   },
 ];
 

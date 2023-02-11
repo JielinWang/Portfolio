@@ -24,19 +24,19 @@ const Header = () => {
           className={`flexCenter ${css.menu}`}
         >
           <li>
-            <a href="">HOME</a>
+            <a href="#">HOME</a>
           </li>
           <li>
-            <a href="">ABOUT</a>
+            <a href="#experties">ABOUT</a>
           </li>
           <li>
-            <a href="">SKILLS</a>
+            <a href="#work">SKILLS</a>
           </li>
           <li>
-            <a href="">PROJECTS</a>
+            <a href="#portfolio">PROJECTS</a>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+1(847)-494-6507</p>
