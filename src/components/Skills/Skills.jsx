@@ -33,11 +33,11 @@ const Skills = () => {
                 className={`flexCenter ${css.exp}`}
               >
                 <div className={css.post}>
-                  <h1>{exp.place}</h1>
-                  <p>{exp.tenure}</p>
+                  <h1>{exp.stack}</h1>
+                  <p>{exp.tools}</p>
                 </div>
                 <div className={css.role}>
-                  <h1>{exp.role}</h1>
+                  <h1>{exp.skill}</h1>
                   <p>{exp.detail}</p>
                 </div>
               </motion.div>

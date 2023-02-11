@@ -1,6 +1,7 @@
 import { MdComputer } from "react-icons/md";
 import { SiUdemy } from "react-icons/si";
 import { GiGraduateCap } from "react-icons/gi";
+
 export const projectExperience = [
   {
     name: "Full Stack Development with MERN",
@@ -29,23 +30,23 @@ export const AboutMe = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    stack: "Front-end",
+    tools:
+      "ReactJS, JavaScript, Next.js, HTML, Bootstrap, CSS, SASS, Version Control/Git, DOM Manipulation, JSON, TypeScript",
+    skill: "Problem Solving",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    stack: "Back-end",
+    tools:
+      "Express, NodeJS, MongoDB, AWS, Firebase, Docker, Postman, REST APIs,  ",
+    skill: "Team Work",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    skill: "Communication Skills",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },

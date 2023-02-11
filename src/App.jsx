@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Skills from "./components/Skills/Skills";
 import css from "./styles/app.module.scss";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   //don't forget to add font link in index.html
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Skills />
       <Portfolio />
+      <Footer />
     </div>
   );
 };
