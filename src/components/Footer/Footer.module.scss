@@ -10,6 +10,7 @@
     }
     .left {
       flex: 3;
+
       > * {
         display: block;
       }
@@ -33,7 +34,7 @@
       }
       .menu {
         @media (max-width: $sm) {
-          flex-direction: row;
+          flex-direction: column;
           flex-wrap: wrap;
         }
         display: flex;

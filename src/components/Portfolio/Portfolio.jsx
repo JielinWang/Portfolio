@@ -1,10 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import css from "./Portfolio.module.scss";
-import { fadeIn, staggerChildren, textVariant } from "../../utils/motion";
-import { HiPresentationChartLine } from "react-icons/hi";
-import { BsGithub } from "react-icons/bs";
-
+import {
+  fadeIn,
+  staggerChildren,
+  textVariant,
+  textVariant2,
+} from "../../utils/motion";
 const Portfolio = () => {
   return (
     <motion.section
@@ -31,55 +33,39 @@ const Portfolio = () => {
         </motion.div>
 
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.img
-            variants={fadeIn("up", "tween", 0.5, 0.6)}
-            src="./showCase1.png"
-            alt="project"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.7, 0.6)}
-            src="./showCase2.png"
-            alt="project"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.9, 0.6)}
-            src="./showCase3.png"
-            alt="project"
-          />
-        </div>
-        <div className={`flexCenter paddings innerWidth ${css.icons}`}>
-          <div style={{ background: "#EEC048" }}>
-            <a href="https://drive.google.com/file/d/13jsViaJFAOzt-DYv8QirfAsuV3_PCqWm/view?usp=sharing">
-              <HiPresentationChartLine size={30} color="white" />
-            </a>
-          </div>
-          <div style={{ background: "#286F6C" }}>
-            <a href="https://github.com/JielinWang/jw-bank-fullstack-app">
-              <BsGithub size={30} color="white" />
-            </a>
-          </div>
-
-          <div style={{ background: "#EEC048" }}>
-            <a href="https://drive.google.com/file/d/1br3lfN7TH7YVLLE79yvOUa7RXjoapOn2/view?usp=sharing">
-              <HiPresentationChartLine size={30} color="white" />
-            </a>
-          </div>
-          <div style={{ background: "#286F6C" }}>
-            <a href="https://github.com/JielinWang/Food-Ordering-App">
-              <BsGithub size={30} color="white" />
-            </a>
-          </div>
-
-          <div style={{ background: "#EEC048" }}>
-            <a href="https://drive.google.com/file/d/1PVdko3p1qbne178rge2OHU_K43NjGwsc/view?usp=sharing">
-              <HiPresentationChartLine size={30} color="white" />
-            </a>
-          </div>
-          <div style={{ background: "#286F6C" }}>
-            <a href="https://github.com/JielinWang/Realtime-Chat-App">
-              <BsGithub size={30} color="white" />
-            </a>
-          </div>
+          <a
+            href="https://github.com/JielinWang/jw-bank-fullstack-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.5, 0.6)}
+              src="./showCase1.png"
+              alt="project"
+            />
+          </a>
+          <a
+            href="https://github.com/JielinWang/Food-Ordering-App"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.7, 0.6)}
+              src="./showCase2.png"
+              alt="project"
+            />
+          </a>
+          <a
+            href="https://github.com/JielinWang/Realtime-Chat-App"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <motion.img
+              variants={fadeIn("up", "tween", 0.9, 0.6)}
+              src="./showCase3.png"
+              alt="project"
+            />
+          </a>
         </div>
       </div>
     </motion.section>

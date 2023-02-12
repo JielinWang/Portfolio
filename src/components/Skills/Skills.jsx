@@ -22,7 +22,7 @@ const Skills = () => {
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
-        <span className="primaryText yPaddings">My Skilss</span>
+        <span className="primaryText yPaddings">My Skills</span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {
