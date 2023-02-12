@@ -33,7 +33,7 @@ export const workExp = [
     stack: "Front-end",
     tools:
       "ReactJS, JavaScript, Next.js, TypeScript,HTML, Bootstrap, CSS, SASS, DOM Manipulation,Version Control/Git, GraphQL, JSON",
-    skill: "Problem Solving",
+    skill: "Problem Solving & Critical Thinking",
     detail:
       "I like a friend who has shared a word Calculate Risk with me, I think proactively understanding the root of a problem and working with others to consider a wide range of solutions before deciding how to move forward is very important.",
   },
